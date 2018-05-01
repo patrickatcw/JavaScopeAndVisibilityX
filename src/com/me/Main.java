@@ -15,9 +15,36 @@ change your program so that ALL  variables (including the scanner instance) are
 called x
  */
 
+import java.util.Scanner;
+
 public class Main {
 
     public static void main(String[] args) {
+
+        //step 5 do scanner for input by user
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Please enter a number: ");
+
+        //step 6 instance
+        X x = new X(scanner.nextInt());
+
+        //step 7 call method
+        x.x();  //then run
+
+        /*Please enter a number:
+        3
+        1 times 3 equals 3
+        2 times 3 equals 6
+        3 times 3 equals 9
+        4 times 3 equals 12
+        5 times 3 equals 15
+        6 times 3 equals 18
+        7 times 3 equals 21
+        8 times 3 equals 24
+        9 times 3 equals 27
+        10 times 3 equals 30
+        11 times 3 equals 33
+        12 times 3 equals 36*/
 
     }
 
