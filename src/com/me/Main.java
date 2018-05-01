@@ -22,14 +22,14 @@ public class Main {
     public static void main(String[] args) {
 
         //step 5 do scanner for input by user
-        Scanner scanner = new Scanner(System.in);
+        /*Scanner scanner = new Scanner(System.in);
         System.out.println("Please enter a number: ");
 
         //step 6 instance
         X x = new X(scanner.nextInt());
 
         //step 7 call method
-        x.x();  //then run
+        x.x();*/  //then run
 
         /*Please enter a number:
         3
@@ -45,6 +45,12 @@ public class Main {
         10 times 3 equals 30
         11 times 3 equals 33
         12 times 3 equals 36*/
+
+        //step 8 in X class for bonus
+
+        //step 9
+        X x = new X(new Scanner(System.in));
+        x.x(); //then run, got same!
 
     }
 
